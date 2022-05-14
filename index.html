@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/menu_button.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider();
+            $('.bxslider2').bxSlider({
+                pager:false
+            });
+        });
+    </script> <!-- ทำให้เลื่อนสไลด์ด้านข้าง -->
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/99.png" id="logo-1">
+                </a>
+            </div><!-- logo -->
+
+            <div class="img-h">
+                <div id="img-home">
+                    <img src="images/imgHomePage.png" id="img-home-1">
+                </div> <!-- img-home -->
+            </div>
+
+            <div class="header">
+                <div id="menu-bar">
+                    <a href="#" >HOME</a>
+                    <a href="#" >ABOUT</a>
+                    <a href="#" >SHOP</a>
+                    <a href="#" >HOW TO MEOW</a>
+                    <a href="#" >CONTACT</a>
+                </div> <!-- menu-bar -->
+            </div>
+
+            <div class="header-right">
+                <div class="box">
+                    <input id="search" type="text" name="search" placeholder="Search.."><i class="fas fa-search"></i>
+                </div>
+                <div class="box">
+                    <button id="sign-in">Sign In</button>
+                </div>
+                <div class="box">
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+
+            </div><!-- header-right -->
+
+            <div class="text-banner">
+                <h1 class="text-head">So many of my smile <br>begin with CATS</h1>
+                <p class="by-content">- MEOW CLUB -</p>
+                <button class="shop-now">SHOP NOW</button>
+            </div>
+        </header>
+
+        <section id="content">
+            <div id="box-content">
+                <div class="text-content">
+                    <h1 class="text-1">NEW PRODUCT & BEST SELLER</h1>
+                </div>
+
+                <div class="content-1">
+                    <div class="head-newproduct">
+                        <h1 id="newproduct-1">new product</h1>
+                    </div>
+                    <div class="img-np">
+                        <img src="images/new product-1.jpg" id="img-np-1">
+                    </div>
+                    <div class="detail-np">
+                        <h1 class="name-np-1">Himalayan Persian</h1>
+                        <p class="detail-np-1"> เพศ :      หญิง<br>
+                            อายุ :      3 เดือน<br>
+                            ทำวัคซีนไข้หัดแล้ว<br>
+                            ถ่ายพยาธิแล้ว  </p>
+                        <div id="price-newproduct">
+                            <h1 class="price-1">Price : 60,000 ฿</h1>
+                            <button class="shop"><i class="fas fa-shopping-basket"></i></button>
+                        </div>    
+                    </div>           
+                </div><!-- content-1 -->    
+
+                <div class="content-2">
+                    <div class="head-newproduct">
+                        <h1 id="newproduct-2">new product</h1>
+                    </div>
+                    <div class="img-np">
+                        <img src="images/new product-2.jpg" id="img-np-2">
+                    </div>
+                    <div class="detail-np">
+                        <h1 class="name-np-2">Bengal Cat</h1>
+                        <p class="detail-np-2"> เพศ :      ชาย<br>
+                            อายุ :      4 เดือน<br>
+                            ทำวัคซีนไข้หัดแล้ว<br>
+                            ถ่ายพยาธิแล้ว  </p>
+                        <div id="price-newproduct-2">
+                            <h1 class="price-2">Price : 70,000 ฿</h1>
+                            <button class="shop-2"><i class="fas fa-shopping-basket"></i></button>
+                        </div>    
+                    </div>
+                </div><!-- content-2 -->
+
+                <div class="content-3">
+                    <div class="head-newproduct">
+                        <h1 id="newproduct-3">best seller</h1>
+                    </div>
+                    <div class="img-np">
+                        <img src="images/best seller-1.jpg" id="img-np-3">
+                    </div>
+                    <div class="detail-np">
+                        <h1 class="name-np-3">British Shorthair Blue</h1>
+                        <p class="detail-np-3"> เพศ :      หญิง<br>
+                            อายุ :      2 เดือน<br>
+                            ทำวัคซีนไข้หัดแล้ว<br>
+                            ถ่ายพยาธิแล้ว  </p>
+                        <div id="price-newproduct-3">
+                            <h1 class="price-3">Price : 30,000 ฿</h1>
+                            <button class="shop-3"><i class="fas fa-shopping-basket"></i></button>
+                        </div>    
+                    </div>
+                </div><!-- content-3 -->
+
+                <div class="content-4">
+                    <div class="head-newproduct">
+                        <h1 id="newproduct-4">best seller</h1>
+                    </div>
+                    <div class="img-np">
+                        <img src="images/best seller-2.jpg" id="img-np-4">
+                    </div>
+                    <div class="detail-np">
+                        <h1 class="name-np-4">British Shorthair <br>
+                            Blue Golden</h1>
+                        <p class="detail-np-4"> เพศ :      ชาย<br>
+                            อายุ :      2 เดือน<br>
+                            ทำวัคซีนไข้หัดแล้ว<br>
+                            ถ่ายพยาธิแล้ว  </p>
+                        <div id="price-newproduct-4">
+                            <h1 class="price-4">Price : 20,000 ฿</h1>
+                            <button class="shop-4"><i class="fas fa-shopping-basket"></i></button>
+                        </div>    
+                    </div>
+                </div><!-- content-4 -->
+            </div><!-- box-content -->
+        </section><!-- content -->
+
+        <section id="Promotion">
+            <div id="box-promotion">
+                <div class="promotion-1">
+                        <img src="images/Group 87.png" id="promote-1">
+                </div><!-- promotion -->
+
+                <div class="text-promotion-1">
+                    <h1 class="text-pt-1">สำหรับทาสแมวที่ซื้อน้องแมว<br>
+                        ในราคา 30,000 บาทเป็นต้นไป</h1>
+                        <div class="promotion-cat">
+                            <img src="images/e689476d68157a3b33961489db179a81-removebg-preview.png" id="cat-3">
+                        </div><!-- promotion-cat -->
+                        <div class="free">
+                            <div class="promotion-free-1">
+                                <img src="images/Meo2.png" id="meo-1">
+                            </div><!-- promotion-free-1 -->
+                            <div class="promotion-free-2">
+                                <img src="images/Meo1.png" id="meo-2">
+                            </div><!-- promotion-free-2 -->
+                            <div class="promotion-free-3">
+                                <img src="images/Meo3.png" id="meo-3">
+                            </div><!-- promotion-free-3 -->
+                            <div class="promotion-free">
+                                <img src="images/งานออกแบบที่ไม่มีชื่อ-removebg-preview.png" id="free-1">
+                                <h1 class="text-free">FREE!!</h1>
+                            </div><!-- promotion-free-3 -->
+                            <div class="text-f">
+                                <p>อาหารลูกแมว Me-O ลูกแมวมีโอ<br>
+                                    /ลูกแมวเปอร์เซีย 1.1 กก. ราคา 139 บาท</p>
+                            </div>
+                        </div>
+                </div><!-- promotion-1 -->
+    
+
+                <div class="text-promotion-2">
+                    <h1 class="text-pt-2">พิเศษ!! สำหรับลูกค้าเดิม หากมาซื้อน้องแมว<br>
+                        ตัวใหม่เพิ่ม แถมเตียงอุโมงค์แมว </h1>
+                    <div class="promotion-free-4">
+                            <img src="images/PlayCat.jpg" id="play-1">
+                    </div><!-- promotion-free-4 -->
+                    <div class="promotion-free-5">
+                            <img src="images/PlayCat2.jpg" id="play-2">
+                    </div><!-- promotion-free- 5-->
+                    <div class="promotion-free_fn">
+                            <img src="images/งานออกแบบที่ไม่มีชื่อ-removebg-preview.png" id="free-2">
+                            <h1 class="text-free_1">FREE!!</h1>
+                    </div><!-- promotion-free-3 -->
+                    <div class="text-f-1">
+                            <p>ที่นอนแมวพับได้ทำความสะอาดง่ายกระท่อมถอดออกได้นุ่มของเล่นอุโมงค์ลูกแมว<br>
+                                ราคา 580 บาท ( สี : เขียว,กาแฟ,ไวน์แดง )</p>
+                    </div>
+                </div><!-- promotion-2 -->
+            </div>
+        </section>
+
+        <section id="meow-shop">
+            <div class="head-shop">
+                    <h1 class="hs">MEOW SHOP</h1>
+                </div>
+            <div id="box-shop-1">
+                <div class="box-box-1">
+                    <div class="treding">
+                        <p>Trending now !!<p>
+                    </div>
+                    <img src="/images/BritishShorthair.png" id="btsh">
+                    <h1 class="text-btsh" > British Shorthair<br>
+                        9,000 - 60,000 ฿ </h1>
+                </div>
+
+                <div class="box-box-2">
+                    <img src="/images/AmericanShortHair.png" id="amsh">
+                    <h1 class="text-amsh"> American Shorthair<br>
+                        10,000 - 50,000 ฿ </h1>
+                    
+                </div>
+
+                <div class="box-box-3">
+                    <img src="/images/Ragdoll.png" id="rd">
+                    <h1 class="text-rd"> Ragdoll<br>
+                        25,000 - 80,000 ฿ </h1>
+                </div>
+
+                <div class="box-box-4">
+                    <div class="treding">
+                        <p>Trending now !!<p>
+                    </div>
+                    <img src="/images/ScottishFold.png" id="tsf">
+                    <h1 class="text-tsf"> The Scottish Fold<br>
+                        30,000 - 70,000 ฿ </h1>
+                </div>
+            </div>
+
+            <div id="box-shop-2">
+                <div class="box-box-5">
+                    <div class="Limited">
+                        <p>Limited quanlity<p>
+                    </div>
+                    <img src="/images/Sphynx.png" id="spc">
+                    <h1 class="text-spc"> Sphynx Cat <br>
+                        50,000 - 120,000 ฿ </h1>
+
+                </div>
+
+                <div class="box-box-6">
+                    <img src="/images/SiamCat.png" id="sc">
+                    <h1 class="text-sc"> Siamese Cat <br>
+                        5,000 - 15,000 ฿ </h1>
+                    
+                </div>
+
+                <div class="box-box-7">
+                    <img src="/images/Persian.png" id="ps">
+                    <h1 class="text-ps"> Persian Cat <br>
+                        30,000 - 60,000 ฿ </h1>
+                    
+                </div>
+
+                <div class="box-box-8">
+                    <img src="/images/ExoticShorthair.png" id="exo">
+                    <h1 class="text-exo"> The Exotic Shorthair<br>
+                        30,000 - 40,000 ฿ </h1>
+                </div>
+            </div>
+        </section>
+        
+        <section id="tips">
+            <div id="box-tips">
+                <ul class="bxslider">
+                    <li>
+                        <article id="set_event_item">
+                            <div class="tips-1">
+                                <img src="/images/ShortrecapTemplate_v.3_07-08_salisa_v101.jpg" id="sh-10">
+                                <h1 class="type-10">10 สายพันธุ์แมวน่าเลี้ยงที่สุด<br>
+                                    ทำทาสหลงรักหัวปักหัวปำ<br></h1>
+                                <p class="detail-10"> <br>ใครที่กำลังมองหาแมวสายพันธุ์ต่างๆมาเลี้ยงเป็นเพื่อน<br>
+                                                           MeowClub ได้รวบรวมสายพันธุ์แมวที่น่าเลี้ยงที่สุด<br>
+                                                          มาไว้ให้ที่นี่ถึง10 สายพันธุ์ด้วยกัน บอกเลยว่าเต็มไป<br>
+                                                           ด้วยความน่ารัก น่าฟัด ชอบแบบไหนเลือกได้ตามใจชอบ<br>
+                                                           </p>
+                                <button class="button-1">See more...</button>
+                            </div>
+
+                            <div class="tips-2">
+                                <img src="/images/10-213.jpg" id="sh-11">
+                                <h1 class="type-11">16 สายพันธุ์แมวเหมียวหายากจากรอบโลก <br>
+                                        มาดูสิว่าคุณรู้จักมันหมดทุกตัวรึเปล่า</h1>
+                                <p class="detail-11"> <br>หลายคนที่เป็นทาสแมวคงจะรู้จักหรือเคยได้ยินชื่อ<br>
+                                                          สายพันธุ์ของเหล่าน้องเหมียวกันบ้าง แต่ยังมีเจ้าเหมียว<br>
+                                                          อีกหลายสายพันธุ์ที่ เหล่าทาสแมวอย่างคุณ<br>
+                                                          ต้องไม่เคยเห็นหรือเคยได้ยินชื่อมาก่อนแน่ๆ </p>
+                                <button class="button-2">See more...</button>
+                            </div>
+
+                        </article>
+                    </li>
+
+
+                    <li >
+                        <article id="set_event_item">
+                            <div class="tips-1" class="bx-wrapper bx-prev" >
+                                <img src="/images/แมวท้อง.jpg" id="sh-12">
+                                <h1 class="type-12">7 สัญญาณเตือน เจ้าแมวเหมียวกำลังท้อง<br></h1>
+                                <p class="detail-12"> <br>เป็นเรื่องธรรมชาติของน้องแมว เมื่อถึงช่วงเวลาผสมพันธุ์ <br>
+                                                           หรือช่วงติดสัตว์เราก็ต้องหาคู่ให้มัน จากนั้นค่อยมาลุ้นกัน<br>
+                                                          ต่อว่าน้องแมวท้องหรือไม่ท้อง ซึ่งเราจะรู้ได้อย่างไร<br>
+                                                          ว่าแมวกำลังตั้งท้อง วิธีสังเกตก็ง่ายนิดเดียว<br>
+                                                           </p>
+                                <button class="button-1">See more...</button>
+                            </div>
+
+                            <div class="tips-2">
+                                <img src="/images/12.jpg" id="sh-13">
+                                <h1 class="type-13">พฤติกรรมของเจ้าเหมียวที่บ่งบอกว่าเขารักคุณ<br></h1>
+                                <p class="detail-13"> <br>ใครที่บอกว่า แมว ไม่รักเจ้าของไม่จริงหรอกค่ะ <br>
+                                                          เจ้าเหมียวก็มีหัวใจ มีความรักเหมือนกับมนุษย์ <br>
+                                                          เพียงแต่ว่าเขาพูดไม่ได้เท่านั้นเอง <br>
+                                                          เลยต้องแสดงความรักในรูปแบบอื่นแทน</p>
+                                <button class="button-2">See more...</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-main">
+                <div class="ft-box">
+                    <img src="/images/99.png" id="logo-footer">
+                    <a href="#" >HOME</a>
+                    <a href="#" >ABOUT</a><br>
+                    <a href="#" >SHOP</a>
+                    <a href="#" >HOW TO MEOW</a>
+                </div><!-- ft-box -->
+                <div class="ft-box-1">
+                    <div class="call">
+                        <h1 class="call-1"><i class="fas fa-phone-alt"></i> 081-810-xxxx</h1>
+                    </div>
+                    <div class="map">
+                        <h1 class="map-1"><i class="fas fa-map-marked-alt"></i> 51 M.4 ,Phraekha Subdistrict<br>
+                            ,Khuan Khanun District,<br>
+                            Phatthalung Province , 93110</h1>
+                    </div>
+                </div><!-- ft-box-1 -->
+                <div class="ft-box-2">
+                    <div class="facebook">
+                        <h1 class="facebook-1"><i class="fab fa-facebook-square"></i> MeowClubShop</h1>
+                    </div>
+                    <div class="line">
+                        <h1 class="line-1"><i class="fab fa-line"></i> @MeowClubShop</h1>
+                    </div>
+                    <div class="twitter">
+                        <h1 class="twitter-1"><i class="fab fa-twitter-square"></i> @MeowClubShop76</h1>
+                    </div>
+                </div><!-- ft-box-2 -->
+            </div>
+            <div class="copyright">
+                <h1 class="copyright-1"> © Copyright, Meowclub.com - All Right Reserved.</h1>
+            </div>
+        </footer>
+
+    </div><!-- wrapper -->
+</body>
+</html>

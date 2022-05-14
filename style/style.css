@@ -1,0 +1,1209 @@
+*{
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #DCD7D7;
+}
+.img-h{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#img-home-1{
+    width: 880px;
+    height: 860px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+/* #img-home-1{
+    width: 980px;
+    height: 960px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 800px;
+    cursor: pointer;
+} */
+.logo{
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+    float: left;
+    cursor: pointer;
+    /* background: olive; */
+    position: fixed;
+}
+#logo-1{
+    width: 70px;
+    height: 70px;
+    margin-left: 70px;
+}
+.header{
+    width: 60%;
+    float: left;
+    margin-top: 20px;
+    position: fixed;
+    /* /* background: seagreen; */
+    /* height: 100px; */
+}
+#menu-bar{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#menu-bar a{
+    text-decoration: none; /* ไม่มีขีดล่าง */
+    color: #707070;
+    padding-left: 25px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+}
+#menu-bar a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.header-right{
+    width: 400px;
+    height: 80px;
+    float: right;
+    /* background: royalblue; */
+    position: fixed;
+    right: 0;
+}
+.box{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#search{
+    width: 170px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: seashell;
+    float: left;
+    font-family: CordiaUPC;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fa-search{
+    margin-top: 19px;
+    margin-left: -30px;
+    color: #888;
+    cursor: pointer;
+    float: left;
+}
+.fa-search:hover{
+    color: #fff;
+}
+#sign-in{
+    width: 80px;
+    height: 36px;
+    background-color: #fff;
+    color: #414141;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+}
+#sign-in:hover{
+    background-color: #9e9e9e;
+    color: #fff;
+    transition: .5s;
+}
+.fa-shopping-basket{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.fa-shopping-basket:hover{
+    color: black;
+    transition: .5s;
+}
+.text-banner{
+    width: 850px;
+    height: 180px;
+    float: left;
+    padding: 0px 0 20px 40px;
+    position: absolute;
+    top: 370px;
+    left: 90px;
+    /* background: rgba(0,0,0,0.5); */
+}
+.text-head{
+    font-family: EucrosiaUPC;
+    font-size: 66px;
+    color: #000000;
+    float: left;
+    text-transform:uppercase ;
+    padding: -10px 0 0 20px;
+}
+.by-content{
+    font-family: EucrosiaUPC;
+    font-size: 32px;
+    color: #000000;
+    padding: 140px 0 0 10px;
+}
+.shop-now{
+    width: 148px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Sukhumvit Set;
+    font-size: 18px;
+    margin: 20px 0 0 20px;
+    cursor: pointer;
+}
+.shop-now:hover{
+    color: #b69183;
+    background:#000 ;
+    transition: .5s ;
+}
+#content{
+    width: 100%;
+    height: 728px;
+    background: #fff;
+}
+#box-content{
+    width: 100%;
+    /* width: 990px; */
+    height: 128px;
+    margin: 0 auto;
+    background-color: #656464;
+}
+.text-1{
+    width: 1000px;
+    float: left;
+    margin: 45px 0 0 450px ;
+    font-size: 36px;
+    color: #fff;
+}
+.content-1{
+    width: 300px;
+    /* width: 50%; */
+    height: 500px;
+    float: left;
+    background-color: #F2F2F2;
+    margin: 100px 0 0 100px;
+}
+#newproduct-1 {
+    width: 150px;
+    float: left;
+    margin: 30px 0 0 80px ;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    color: #fff;
+    font-family: Sukhumvit Set;
+    text-transform: uppercase;
+}
+.head-newproduct{
+    width: 50%;
+    height: 0px;
+    margin: 0 auto;
+    background-color: #E95C5C;
+}
+.img-np{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#img-np-1{
+    width: 260px;
+    height: 190px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.detail-np{
+    width: 850px;
+    height: 180px;
+    float: left;
+    padding: 0px 0 20px 40px;
+    position: absolute;
+    margin-bottom: 270px;
+    left: 90px;
+    /* background: rgba(0,0,0,0.5); */
+}
+.name-np-1{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    text-transform:uppercase ;
+    /* padding: 0px 0 0 10px; */
+    margin-top: 200px;
+}
+.detail-np-1{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #000000;
+    padding: 230px 0 0 40px;
+    line-height: 24px; 
+    word-spacing: 10px;
+}
+#price-newproduct{
+    width: 300px; 
+    height: 65px;
+    float: left;
+    font-size: 20px;
+    background-color: #707070;   
+    margin-left: -30px; 
+    margin-top: 10px;
+}
+.price-1{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 10px ;
+    font-family: Sukhumvit Set;
+    color: white;
+    padding: 5px 0 0 30px;
+}
+.shop{
+    width: 65px;
+    height: 65px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Sukhumvit Set;
+    font-size: 26px;
+    cursor: pointer;
+    float: left;
+    margin-top: -45px ;
+    margin-left: 235px;
+}
+.shop:hover{
+    color: #ffffff;
+    background:#000 ;
+    transition: .5s ;
+}
+.content-2{
+    width: 300px;
+    /* width: 50%; */
+    height: 500px;
+    float: left;
+    background-color: #F2F2F2;
+    margin: 100px 0 0 40px;
+}
+#newproduct-2 {
+    width: 150px;
+    float: left;
+    margin: 30px 0 0 80px ;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    color: #fff;
+    font-family: Sukhumvit Set;
+    text-transform: uppercase;
+}
+.head-newproduct{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color:#E95C5C;
+}
+.img-np{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#img-np-2{
+    width: 90%;
+    height: 190px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.detail-np{
+    width: 850px;
+    height: 180px;
+    float: left;
+    padding: 0px 0 20px 40px;
+    position: absolute;
+    margin-bottom: 270px;
+    left: 90px;
+    /* background: rgba(0,0,0,0.5); */
+}
+.name-np-2{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    text-transform:uppercase ;
+    /* padding: 0px 0 0 10px; */
+    margin-top: 200px;
+    margin-left: 390px;
+}
+.detail-np-2{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #000000;
+    padding: 230px 0 0 390px;
+    line-height: 24px; 
+    word-spacing: 10px;
+}
+#price-newproduct-2{
+    width: 300px; 
+    height: 65px;
+    float: left;
+    font-size: 20px;
+    background-color: #707070;   
+    margin-left: 310px; 
+    margin-top: 10px;
+}
+.price-2{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 20px ;
+    font-family: Sukhumvit Set;
+    color: white;
+    padding: 5px 0 0 30px;
+}
+.shop-2{
+    width: 65px;
+    height: 65px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Sukhumvit Set;
+    font-size: 26px;
+    cursor: pointer;
+    float: left;
+    margin-top: -45px ;
+    margin-left: 235px;
+}
+.shop-2:hover{
+    color: #ffffff;
+    background:#000 ;
+    transition: .5s ;
+}
+.content-3{
+    width: 300px;
+    /* width: 50%; */
+    height: 500px;
+    float: left;
+    background-color: #F2F2F2;
+    margin: 100px 0 0 40px;
+}
+#newproduct-3 {
+    width: 150px;
+    float: left;
+    margin: 30px 0 0 80px ;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    color: #fff;
+    font-family: Sukhumvit Set;
+    text-transform: uppercase;
+}
+.head-newproduct{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color:#E95C5C;
+}
+.img-np{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#img-np-3{
+    width: 90%;
+    height: 190px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.detail-np{
+    width: 1050px;
+    height: 180px;
+    float: left;
+    padding: 0px 0 20px 40px;
+    position: absolute;
+    margin-bottom: 270px;
+    left: 90px;
+    /* background: rgba(0,0,0,0.5); */
+}
+.name-np-3{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    text-transform:uppercase ;
+    /* padding: 0px 0 0 10px; */
+    margin-top: 200px;
+    margin-left: 685px;
+}
+.detail-np-3{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #000000;
+    padding: 230px 0 0 745px;
+    line-height: 24px; 
+    word-spacing: 10px;
+}
+#price-newproduct-3{
+    width: 300px; 
+    height: 65px;
+    float: left;
+    font-size: 20px;
+    background-color: #707070;   
+    margin-left: 650px; 
+    margin-top: 10px;
+}
+.price-3{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 20px ;
+    font-family: Sukhumvit Set;
+    color: white;
+    padding: 5px 0 0 30px;
+}
+.shop-3{
+    width: 65px;
+    height: 65px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Sukhumvit Set;
+    font-size: 26px;
+    cursor: pointer;
+    float: left;
+    margin-top: -45px ;
+    margin-left: 235px;
+}
+.shop-3:hover{
+    color: #ffffff;
+    background:#000 ;
+    transition: .5s ;
+}
+.content-4{
+    width: 300px;
+    /* width: 50%; */
+    height: 500px;
+    float: left;
+    background-color: #F2F2F2;
+    margin: 100px 0 0 40px;
+}
+#newproduct-4 {
+    width: 150px;
+    float: left;
+    margin: 30px 0 0 80px ;
+    font-size: 20px;
+    padding: 10px 0 0 10px;
+    color: #fff;
+    font-family: Sukhumvit Set;
+    text-transform: uppercase;
+}
+.head-newproduct{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color:#E95C5C;
+}
+.img-np{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#img-np-4{
+    width: 90%;
+    height: 190px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.detail-np{
+    width: 1400px;
+    height: 180px;
+    float: left;
+    padding: 0px 0 20px 40px;
+    position: absolute;
+    margin-bottom: 270px;
+    left: 90px;
+    /* background: rgba(0,0,0,0.5); */
+}
+.name-np-4{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    text-transform:uppercase ;
+    /* padding: 0px 0 0 10px; */
+    margin-top: 190px;
+    margin-left: 1060px;
+    text-align: center;
+}
+.detail-np-4{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #000000;
+    padding: 230px 0 0 1100px;
+    line-height: 24px; 
+    word-spacing: 10px;
+}
+#price-newproduct-4{
+    width: 300px; 
+    height: 65px;
+    float: left;
+    font-size: 20px;
+    background-color: #707070;   
+    margin-left: 990px; 
+    margin-top: 10px;
+}
+.price-4{
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 20px ;
+    font-family: Sukhumvit Set;
+    color: white;
+    padding: 5px 0 0 30px;
+}
+.shop-4{
+    width: 65px;
+    height: 65px;
+    border: 1px solid gray;
+    font-weight: bold;
+    font-family: Sukhumvit Set;
+    font-size: 26px;
+    cursor: pointer;
+    float: left;
+    margin-top: -45px ;
+    margin-left: 235px;
+}
+.shop-4:hover{
+    color: #ffffff;
+    background:#000 ;
+    transition: .5s ;
+}
+#Promotion{
+    width: 100%;
+    height: 470px;
+    background: #E9D5D5;
+}
+#promote-1{
+    width: 30%;
+    float: left;
+    margin: -5px -5px ;
+}
+.text-promotion-1{
+    width: 525px;
+    /* width: 50%; */
+    height: 340px;
+    float: left;
+    background-color: #ffffff;
+    margin: 70px 0 0 -250px;
+}
+.text-promotion-1:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+.text-pt-1{
+    width: 100%;
+    height: 100px;
+    font-family: Sukhumvit Set;
+    font-size: 25px;
+    float: left;
+    margin: 15px 0 0 215px;
+}
+#cat-3{
+    width: 190px;
+    height: 240px;
+    float: left;
+    margin:-50px 0 0 30px;
+}
+.free{
+    width: 100%;
+}
+#meo-1{
+    width: 120px;
+    height: 130px;
+    float: left;
+    margin: 0px 0 0 70px;
+}
+#meo-2{
+    width: 120px;
+    height: 130px;
+    float: left;
+    margin: -110px 0 0 10px;
+}
+#meo-3{
+    width: 120px;
+    height: 130px;
+    float: left;
+    margin: -110px 0 0 0px;
+}
+#free-1{
+    width: 120px;
+    height: 130px;
+    float: left;
+    margin: -180px 0 0 -240px;
+}
+.text-free{
+    width: 100%;
+    font-family: Sukhumvit Set;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin: -180px 0 0 265px;
+    color:white;
+}
+.text-f{
+    float: left;
+    margin: -40px 0 0 240px;
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    text-align: center;
+
+}
+.text-promotion-2{
+    width: 525px;
+    /* width: 50%; */
+    height: 340px;
+    float: left;
+    background-color: #ffffff;
+    margin: -340px 0 0 800px;
+}
+.text-promotion-2:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+.text-pt-2{
+    width: 100%;
+    height: 10px;
+    font-family: Sukhumvit Set;
+    font-size: 25px;
+    float: left;
+    margin: 15px 0 0 0px;
+    text-align: center;
+}
+#play-1{
+    width: 190px;
+    height: 160px;
+    float: left;
+    margin: 65px 0 0 60px;
+}
+#play-2{
+    width: 190px;
+    height: 165px;
+    float: left;
+    margin: 65px 0 0 20px;
+}
+#free-2{
+    width: 120px;
+    height: 130px;
+    float: left;
+    margin: -220px 0 0 20px;
+}
+.text-free_1{
+    width: 100%;
+    font-family: Sukhumvit Set;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin: -160px 0 0px 55px;
+    color: white;
+}
+.text-f-1{
+    float: left;
+    margin: 20px 0 0 10px;
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    text-align: center;
+}
+#meow-shop{
+    width: 100%;
+    height: 1190px;
+    background: #F8EFEF;
+    clear: both;
+}
+.hs{
+    width: 100%;
+    text-align: center;
+    font-family: EucrosiaUPC;
+    font-size: 60px;
+    padding-top: 70px;
+}
+#box-shop-1{
+    width: 100%;
+    float: left;
+    margin-top: -20px;
+    padding-left: 125px;
+}
+.box-box-1{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin: 80px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-1:hover{
+    box-shadow: 1px 2px 34px rgb(255, 2, 2);
+    transition: .3s;
+}
+.treding{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+#btsh{
+    width: 100%;
+    margin-top: 30px;
+}
+.text-btsh{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-2{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin:120px 0 0 50px ;
+    border-radius: 10px;
+}
+.box-box-2:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#amsh{
+    width: 100%;
+    margin-top: 30px;
+}
+.text-amsh{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-3{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin:120px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-3:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#rd{
+    width: 150%;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.text-rd{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-4{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin:80px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-4:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#tsf{
+    width: 130%;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+.text-tsf{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+#box-shop-2{
+    width: 100%;
+    float: left;
+    margin-top: -30px;
+    padding-left: 125px;
+}
+.box-box-5{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin: 0px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-5:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+.Limited{
+    width: 125px;
+    height: 30px;
+    background-color: rgb(102, 102, 102);
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+#spc{
+    width: 130%;
+    margin-top: 50px;
+    margin-left: -30px;
+}
+.text-spc{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-6{
+    width: 250px;
+    height: 400px;
+    background-color: none;
+    float: left;
+    margin:120px 0 0 50px ;
+    border-radius: 10px;
+}
+.box-box-6:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#sc{
+    width: 110%;
+    margin-top: 110px;
+    margin-left: -10px;
+}
+.text-sc{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-7{
+    width: 250px;
+    height: 400px;
+    background-color:none;
+    float: left;
+    margin:120px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-7:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#ps{
+    width: 130%;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.text-ps{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.box-box-8{
+    width: 250px;
+    height: 400px;
+    background-color:none;
+    float: left;
+    margin:120px 0 0 50px;
+    border-radius: 10px;
+}
+.box-box-8:hover{
+    box-shadow: 1px 2px 34px rgba(0,0,0,1);
+    transition: .3s;
+}
+#exo{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.text-exo{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+#tips{
+    width: 100%;
+    height: 400px;
+}
+#set_event_item{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+.tips-1{
+    width: 650px;
+    height: 250px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    float: left;
+    margin-left: 90px;
+}
+#sh-10{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+.type-10{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    line-height: initial ;
+}
+.detail-10{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    line-height: initial ;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+.button-1{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-weight: bold;
+    margin: 10px 0 0 270px;
+    cursor: pointer;
+}
+.button-1:hover{
+    color: #ffffff ;
+    background:#000 ;
+    transition: .5s ;
+}
+.tips-2{
+    width: 650px;
+    height: 250px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    float: right;
+    margin-right: 90PX;
+}
+#sh-11{
+    width: 250px;
+    height: 230px;
+    float: right;
+    margin-top: 10px;
+}
+.type-11{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.detail-11{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    line-height: initial ;
+    margin-left: 30px;
+}
+.button-2{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-weight: bold;
+    margin: 10px 0 0 270px;
+    cursor: pointer;
+}
+.button-2:hover{
+    color: #ffffff ;
+    background:#000 ;
+    transition: .5s ;
+}
+#sh-12{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+.type-12{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    line-height: initial ;
+}
+.detail-12{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    line-height: initial ;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+.button-1{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-weight: bold;
+    margin: 10px 0 0 270px;
+    cursor: pointer;
+}
+.button-1:hover{
+    color: #ffffff ;
+    background:#000 ;
+    transition: .5s ;
+}
+.tips-2{
+    width: 650px;
+    height: 250px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    float: right;
+    margin-right: 90PX;
+}
+#sh-13{
+    width: 250px;
+    height: 230px;
+    float: right;
+    margin-top: 10px;
+}
+.type-13{
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.detail-13{
+    font-family: Sukhumvit Set;
+    font-size: 16px;
+    line-height: initial ;
+    margin-left: 30px;
+}
+.button-2{
+    width: 100px;
+    height: 30px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-weight: bold;
+    margin: 10px 0 0 270px;
+    cursor: pointer;
+}
+.button-2:hover{
+    color: #ffffff ;
+    background:#000 ;
+    transition: .5s ;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background: #333;
+    clear: both;
+}
+.footer-main{
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+}
+.ft-box{
+    width: 480px;
+    height: 120px;
+    padding: 20px;
+    float: left;
+    color: #fff;
+}
+.ft-box a{
+    text-decoration: none; /* ไม่มีขีดล่าง */
+    color: #707070;
+    padding-left: 25px;
+    font-family: Sukhumvit Set;
+    font-size: 20px;
+    line-height: initial;
+}
+.ft-box a:hover{
+    color: white;
+    text-decoration: none;
+}
+#logo-footer{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: -20px;
+}
+.ft-box-1{
+    padding-top: 20px;
+}
+.call{
+    color: rgb(189, 189, 189);
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.map{
+    color: rgb(189, 189, 189);
+    overflow: hidden;
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+    line-height: 20px;
+}
+.facebook{
+    float: right;
+    margin-right: 28px;
+    margin-top: -85px;
+    color: rgb(189, 189, 189);
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+}
+.line{
+    float: right;
+    margin-right: 16px;
+    margin-top: -60px;
+    color: rgb(189, 189, 189);
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+}
+.twitter{
+    float: right;
+    margin-top: -35px;
+    color: rgb(189, 189, 189);
+    font-family: Sukhumvit Set;
+    font-size: 14px;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+.copyright-1{
+    color: rgb(204, 204, 204);
+    text-align: center;
+    padding-top: 5px;
+}
